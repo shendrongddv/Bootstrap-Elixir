@@ -94,6 +94,14 @@ img {
   color: var(--c-brand);
 }
 
+.navbar-toggler {
+  border-radius: 0;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
 /* BTN */
 .btn {
   font-weight: 600;
